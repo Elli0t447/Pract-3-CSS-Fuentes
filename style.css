@@ -1,0 +1,56 @@
+body
+{
+    margin: 0;
+}
+
+.blue
+{
+    width: 60vw;
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    font-family: 'PottaOne', sans-serif;
+}
+
+.blue-sect
+{
+    border-top: 2vh solid blue;
+    border-bottom: 2vh solid blue;
+    font-family: 'Coda Caption', sans serif;
+}
+
+.sect-1
+{
+    display: flex;
+}
+
+.par1
+{
+    width: 35vw;
+    background-color: cadetblue;
+    color: white;
+}
+
+.par2
+{
+    background-color: black;
+    color: yellow;
+    text-align: justify;
+}
+
+.par3
+{
+    font-family: 'YuseiMagic', sans-serif;
+}
+
+@font-face
+{
+    font-family: 'PottaOne';
+    src: url("fonts/PottaOne-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: 'YuseiMagic';
+    src: url("fonts/YuseiMagic-Regular.ttf");
+}
